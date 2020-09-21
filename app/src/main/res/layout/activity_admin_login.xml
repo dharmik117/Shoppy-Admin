@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/grd_hori"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<TextView
+		android:textSize="50.0dip"
+		android:textStyle="bold"
+		android:textColor="#ff000000"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10.0dip"
+		android:layout_marginTop="10.0dip"
+		android:text="Welcome    Admin" />
+
+
+	<EditText
+		android:id="@+id/emaillogin"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10.0dip"
+		android:baselineAligned="false"
+		android:hint="Username"
+		android:inputType="text" />
+
+
+	<EditText
+		android:id="@id/password"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10.0dip"
+		android:hint="Password"
+		android:inputType="textPassword" />
+
+
+	<Button
+		android:textSize="30.0dip"
+		android:textStyle="bold"
+		android:textColor="#ff000000"
+		android:id="@+id/buttonsignin"
+		android:background="@drawable/capbtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="50.0dip"
+		android:hint="Login" />
+</LinearLayout>

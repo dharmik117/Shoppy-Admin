@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="20dp"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grd_hori">
+
+        <TextView
+            android:id="@+id/tvshopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop Name"
+            android:textSize="20dp"
+            android:textColor="@color/Black"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tvshopdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:text="Shop Descryption"
+            android:layout_below="@+id/tvshopname"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvshopcat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:text="Shop Category"
+            android:layout_below="@+id/tvshopdes"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvpermission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:text="Permission"
+            android:layout_below="@+id/tvshopcat"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="@dimen/_175sdp"
+            android:src="@drawable/defaultpic"/>
+
+        <Switch
+            android:layout_below="@+id/pic"
+            android:layout_marginLeft="@dimen/_175sdp"
+            android:id="@+id/permissionswitch"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permission"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

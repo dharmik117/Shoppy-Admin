@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grd_hori"
+    tools:context=".Main_Page">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Welcome_Admin"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/_50sdp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:id="@+id/btnaddshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/capbtn"
+        android:padding="17dp"
+        android:text="Go To Add Shop"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_below="@id/btnaddshop"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnrequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/capbtn"
+        android:padding="17dp"
+        android:text="View All Requests"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+       />
+
+    <Button
+        android:layout_below="@id/btnrequests"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnallorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/capbtn"
+        android:padding="17dp"
+        android:text="View All Orders"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        />
+
+</RelativeLayout>
